@@ -1,0 +1,33 @@
+{
+  "badge": "تخصص من",
+  "title": "مهارت‌های فنی و",
+  "titleHighlight": "تخصص",
+  "description": "زبان های مشترک من با دنیای دیجیتال",
+  "techStack": "پشته تکنولوژی",
+  "items": {
+    "htmlcss": {
+      "name": "HTML/CSS",
+      "desc": "HTML5 معنایی و CSS3 مدرن"
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "desc": "ES6+، دستکاری DOM"
+    },
+    "bootstrap": {
+      "name": "Bootstrap",
+      "desc": "فریم‌ورک ریسپانسیو"
+    },
+    "responsive": {
+      "name": "طراحی ریسپانسیو وب",
+      "desc": "رویکرد موبایل اول"
+    },
+    "react": {
+      "name": "React",
+      "desc": "توسعه مبتنی بر کامپوننت"
+    },
+    "vue": {
+      "name": "Vue.js",
+      "desc": "فریم‌ورک پیشرونده"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "_comment_nav": ">>> متن‌های منوی ناوبری - Navigation Menu <<<",
+  "nav": {
+    "home": "خانه",
+    "about": "درباره من",
+    "skills": "مهارت‌ها",
+    "resume": "رزومه",
+    "services": "خدمات",
+    "contact": "تماس",
+    "downloadResume": "دریافت رزومه"
+  },
+  "_comment_hero": ">>> بخش صفحه اصلی - Hero Section <<<",
+  "hero": {
+    "greeting": "غزل حسینی",
+    "title": "توسعه‌دهنده Front-end",
+    "subtitle": "توسعه‌دهنده وب",
+    "roles": {
+      "developer": "توسعه‌دهنده وب",
+      "frontend": "توسعه‌دهنده Front-end",
+      "designer": "طراح UI",
+      "programmer": "برنامه‌نویس خلاق"
+    },
+    "description": "سلام، من غزال حسینی هستم، یک توسعه‌دهنده Front-end و Web پرشور مستقر در تهران، ایران. من در ایجاد وب‌سایت‌های مدرن و ریسپانسیو با استفاده از HTML، CSS، JavaScript، Vue و Bootstrap تخصص دارم.",
+    "viewWork": "مشاهده نمونه کارها",
+    "getInTouch": "تماس با من",
+    "haveProject": "پروژه دارید؟",
+    "stats": {
+      "projects": "پروژه",
+      "experience": "سال تجربه",
+      "satisfaction": "رضایت"
+    }
+  },
+  "_comment_about": ">>> بخش درباره من - About Section <<<",
+  "about": {
+    "badge": "بیشتر بشناسید",
+    "title": "علاقه‌مند به خلق",
+    "titleHighlight": "تجربیات دیجیتال",
+    "profession": "برنامه‌نویس و توسعه‌دهنده خلاق",
+    "email": "ایمیل من",
+    "description1": "سلام من غزال حسینی هستم",
+    "description3": "به عنوان یک توسعه‌دهنده Front-end و Web متعهد مستقر در تهران، ایران، من در ایجاد وب‌سایت‌های کاربرپسند، سریع و امن که تجربه کاربری عالی ارائه می‌دهند، تخصص دارم. تخصص من شامل HTML، CSS، JavaScript، Vue، Bootstrap و طراحی ریسپانسیو وب است.",
+    "description4": "من به کمک به کسب‌وکارها در ایجاد حضور آنلاین قوی از طریق توسعه وب مدرن علاقه‌مندم. چه به یک وب‌سایت ریسپانسیو، طراحی UI/UX یا مشاوره توسعه وب نیاز داشته باشید، من اینجا هستم تا ایده‌های شما را به واقعیت تبدیل کنم.",
+    "stats": {
+      "projects": "پروژه تکمیل شده",
+      "experience": "سال تجربه",
+      "satisfaction": "رضایت مشتری"
+    },
+    "details": {
+      "specialization": "تخصص",
+      "specializationValue": "توسعه Front-end",
+      "level": "سطح تجربه",
+      "levelValue": "مبتدی",
+      "education": "تحصیلات",
+      "educationValue": "دیپلم",
+      "languages": "زبان‌ها",
+      "languagesValue": "انگلیسی، فارسی"
+    }
+  },
+  "_comment_skills": ">>> بخش مهارت‌ها - Skills Section <<<",
+  "skills": {
+    "badge": "تخصص من",
+    "title": "مهارت‌های فنی و",
+    "titleHighlight": "تخصص",
+    "description": "به عنوان یک توسعه‌دهنده Front-end و Web، من مهارت‌های جامعی در تکنولوژی‌های مدرن وب و اصول طراحی ریسپانسیو دارم.",
+    "techStack": "پشته تکنولوژی",
+    "items": {
+      "htmlcss": {
+        "name": "HTML/CSS",
+        "desc": "HTML5 معنایی و CSS3 مدرن"
+      },
+      "javascript": {
+        "name": "JavaScript",
+        "desc": "ES6+، دستکاری DOM"
+      },
+      "bootstrap": {
+        "name": "Bootstrap",
+        "desc": "فریم‌ورک ریسپانسیو"
+      },
+      "responsive": {
+        "name": "طراحی ریسپانسیو وب",
+        "desc": "رویکرد موبایل اول"
+      },
+      "react": {
+        "name": "React",
+        "desc": "توسعه مبتنی بر کامپوننت"
+      },
+      "vue": {
+        "name": "Vue.js",
+        "desc": "فریم‌ورک پیشرونده"
+      }
+    }
+  },
+  "_comment_resume": ">>> بخش رزومه - Resume Section <<<",
+  "resume": {
+    "badge": "سفر من",
+    "title": "تجربه",
+    "titleHighlight": "حرفه‌ای",
+    "description": "سفر من در برنامه‌نویسی پر از چالش‌ها و درس‌های ارزشمند بوده است. اینها برخی از تجربیات و پروژه‌هایی هستند که مهارت‌های من را شکل داده‌اند.",
+    "projectsTitle": "پروژه‌های حرفه‌ای",
+    "certificationsTitle": "گواهینامه‌ها",
+    "viewProject": "مشاهده پروژه",
+    "viewCertificate": "مشاهده گواهینامه",
+    "downloadPdf": "دانلود PDF"
+  },
+  "_comment_services": ">>> بخش خدمات - Services Section <<<",
+  "services": {
+    "badge": "آنچه ارائه می‌دهم",
+    "title": "خدمات توسعه",
+    "titleHighlight": "وب",
+    "description": "خدمات توسعه وب حرفه‌ای با تمرکز بر ایجاد وب‌سایت‌های مدرن، سریع و ریسپانسیو.",
+    "items": {
+      "branding": {
+        "title": "برندسازی خلاق",
+        "desc": "ساخت وب‌سایت‌های مدرن با استفاده از HTML، CSS و JavaScript."
+      },
+      "design": {
+        "title": "سیستم‌های طراحی",
+        "desc": "ایجاد طراحی‌های ریسپانسیو برای تمام دستگاه‌ها."
+      },
+      "performance": {
+        "title": "بهینه‌سازی عملکرد",
+        "desc": "بهینه‌سازی سرعت، SEO و تجربه کاربری."
+      },
+      "platforms": {
+        "title": "پلتفرم‌های دیجیتال",
+        "desc": "طراحی رابط‌های کاربری مدرن و تمیز."
+      },
+      "collaboration": {
+        "title": "همکاری تیمی",
+        "desc": "کار با تیم‌ها برای تبدیل ایده‌ها به واقعیت."
+      },
+      "maintenance": {
+        "title": "نگهداری و پشتیبانی",
+        "desc": "نگهداری وب‌سایت و پشتیبانی فنی."
+      }
+    }
+  },
+  "_comment_contact": ">>> بخش تماس - Contact Section <<<",
+  "contact": {
+    "badge": "بیایید در ارتباط باشیم",
+    "title": "تماس",
+    "titleHighlight": "بگیرید",
+    "description": "آماده شروع پروژه توسعه وب خود هستید؟ بیایید در مورد اینکه چگونه می‌توانم به تحقق چشم‌انداز دیجیتال شما کمک کنم صحبت کنیم.",
+    "info": {
+      "title": "اطلاعات تماس",
+      "location": "موقعیت",
+      "locationValue": "تهران، ایران",
+      "phone": "شماره تماس",
+      "email": "آدرس ایمیل"
+    },
+    "form": {
+      "title": "پروژه خود را شروع کنید",
+      "name": "نام شما",
+      "email": "ایمیل شما",
+      "subject": "موضوع",
+      "message": "پیام شما",
+      "send": "ارسال پیام",
+      "sending": "در حال ارسال...",
+      "success": "پیام شما با موفقیت ارسال شد!",
+      "error": "خطا در ارسال پیام. لطفا دوباره تلاش کنید."
+    }
+  },
+  "_comment_footer": ">>> فوتر - Footer <<<",
+  "footer": {
+    "description": "توسعه‌دهنده Front-end و Web حرفه‌ای مستقر در تهران، ایران. متخصص در طراحی ریسپانسیو وب و تکنولوژی‌های مدرن وب.",
+    "services": "خدمات",
+    "contactInfo": "اطلاعات تماس",
+    "rights": "تمامی حقوق محفوظ است",
+    "tagline": "توسعه‌دهنده فرانت  اند و Web حرفه‌ای | تهران، ایران",
+    "servicesList": {
+      "frontend": "توسعه Front-end",
+      "responsive": "طراحی ریسپانسیو وب",
+      "uiux": "طراحی UI/UX",
+      "html": "توسعه HTML/CSS",
+      "javascript": "توسعه JavaScript",
+      "bootstrap": "توسعه Bootstrap"
+    }
+  },
+  "_comment_theme": ">>> تنظیمات تم - Theme Settings <<<",
+  "theme": {
+    "dark": "تاریک",
+    "light": "روشن",
+    "title": "تم"
+  },
+  "_comment_language": ">>> تنظیمات زبان - Language Settings <<<",
+  "language": {
+    "fa": "فارسی",
+    "en": "English",
+    "title": "زبان"
+  }
+}

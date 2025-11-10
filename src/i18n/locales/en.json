@@ -1,0 +1,204 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "resume": "Resume",
+    "experience": "Experience",
+    "services": "Services",
+    "contact": "Contact",
+    "downloadResume": "Download Resume"
+  },
+  "hero": {
+    "greeting": "Ghazal Hosseinni",
+    "title": "Front-end Developer",
+    "subtitle": "Web Developer",
+    "roles": {
+      "developer": "Web Developer",
+      "frontend": "Front-end Developer",
+      "designer": "UI Designer",
+      "programmer": "Creative Programmer"
+    },
+    "description": "Hi! I’m Ghazal Hosseinni, a Front-end developer based in Tehran, passionate about creating digital experiences that are both beautiful and functional. Every line of code I write aims to bring websites to life. HTML, CSS, JavaScript, Nuxt, Vue, and Tailwind are my magic tools.",
+    "viewWork": "View My Work",
+    "getInTouch": "Get In Touch",
+    "haveProject": "Have A Project?",
+    "stats": {
+      "projects": "Projects",
+      "experience": "Years Exp",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "about": {
+    "badge": "Get to Know Me",
+    "title": "Passionate About Creating",
+    "titleHighlight": "Digital Experiences",
+    "profession": "Creative Programmer & Developer",
+    "email": "My Gmail",
+    "description1": " I’m Ghazal Hosseini, a Front-end Developer focused on creating modern , fast , and responsive user interfaces . Since I started my journey in coding , my goal has always been to combine visual elegance with precise functionality in every project I build. ",
+    "description2": " As a detail-oriented and organized individual, I pay great attention to every aspect of my work and always strive to write clean, maintainable, and structured code. I’m a perfectionist by nature, and I never stop working on a project until I achieve the best possible result. I’m also dedicated, reliable, and adaptable, maintaining calm and focus even under pressure. In the workplace, I strongly believe in effective communication, healthy teamwork, and a continuous learning environment. I always aim to collaborate and share knowledge with my teammates to enhance the overall quality of each project.",
+    "description3": "I’m passionate about continuous learning and constantly strive to keep my skills up to date with modern technologies such as Vue.js, Nuxt, JavaScript, and Tailwind CSS, as well as design tools like Figma. ",
+    "description4": "My goal is to build websites that are not only visually appealing but also deliver the highest levels of performance, speed, and user experience. ",
+    "stats": {
+      "projects": "Projects Completed",
+      "experience": "Years Experience",
+      "satisfaction": "Client Satisfaction"
+    },
+    "details": {
+      "specialization": "Specialization",
+      "specializationValue": "Front-end Development",
+      "level": "Experience Level",
+      "levelValue": "Junior",
+      "education": "Education",
+      "educationValue": "Diploma",
+      "languages": "Languages",
+      "languagesValue": "English, Persian"
+    }
+  },
+  "skills": {
+    "badge": "My Expertise",
+    "title": "Technical Skills &",
+    "titleHighlight": "Expertise",
+    "description": "As a Front-end Developer and Web Developer, I possess comprehensive skills in modern web technologies and responsive design principles.",
+    "techStack": "Technology Stack",
+    "items": {
+      "htmlcss": {
+        "name": "HTML/CSS",
+        "desc": "Semantic HTML5 & Modern CSS3"
+      },
+      "javascript": {
+        "name": "JavaScript",
+        "desc": "ES6+, DOM manipulation"
+      },
+      "bootstrap": {
+        "name": "Bootstrap",
+        "desc": "Responsive framework"
+      },
+      "responsive": {
+        "name": "Responsive Web Design",
+        "desc": "Mobile-first approach"
+      },
+      "react": {
+        "name": "React",
+        "desc": "Component-based development"
+      },
+      "vue": {
+        "name": "Vue.js",
+        "desc": "Progressive framework"
+      }
+    }
+  },
+  "resume": {
+    "badge": "My Creations",
+    "title": "Where Creativity Meets",
+    "titleHighlight": "Code",
+    "description": "My journey in programming has been full of challenges and valuable lessons. Here are some of the experiences and projects that have shaped my skills.",
+    "projectsTitle": "Professional Projects",
+    "experienceTitle": "Work Experience",
+    "certificationsTitle": "Certifications",
+    "viewProject": "View Project",
+    "visitWebsite": "Visit Website",
+    "viewCertificate": "View Certificate",
+    "downloadPdf": "Download PDF",
+    "projects": {
+      "todolist": "An interactive To-Do List app built with Vue.js, leveraging Vuetify and Tailwind for a modern, responsive UI. Users can add, edit, delete, and search tasks, while 3D hover effects on tasks enhance the overall user experience.",
+      "weatherApp": "A weather app built with Vue.js that shows the current temperature and weather conditions for a given city. Data is fetched from an API using Axios, and the responsive, modern UI is designed with Tailwind CSS.",
+      "AdminDashboard": "A dynamic admin dashboard adapted from an English template and fully localized in Persian. A To-Do option was added to the menu, integrating my personal To-Do List project into the dashboard for an interactive task management experience.",
+      "metaYar": "A project converting designs created in Figma into Vue.js code using Tailwind CSS, focusing on responsiveness and accurately preserving the visual details of the design.",
+      "formSwip": "A project converting an HTML/CSS template into Vue.js, featuring a modern and visually appealing form with a focus on responsiveness and enhanced user experience."
+    },
+    "experience": {
+      "frontendDev": {
+        "position": "Front-end Intern",
+        "company": "Hoodad Technology Pioneers",
+        "duration": "June 2025 - Present",
+        "yearsOfWork": "{months} Months",
+        "location": "Tehran, Iran",
+        "description": "Developing modern and responsive user interfaces using Vue.js and Nuxt. Collaborating with design team to implement excellent user experience and optimize website performance."
+      }
+    }
+  },
+  "services": {
+    "badge": "What I Offer",
+    "title": "Web Development",
+    "titleHighlight": "Services",
+    "description": "Professional web development services with focus on creating modern, fast, and responsive websites.",
+    "items": {
+      "branding": {
+        "title": "Creative Branding",
+        "desc": "Building modern websites using HTML, CSS, and JavaScript."
+      },
+      "design": {
+        "title": "Design Systems",
+        "desc": "Creating responsive designs for all devices."
+      },
+      "performance": {
+        "title": "Performance Optimization",
+        "desc": "Optimizing speed, SEO, and user experience."
+      },
+      "platforms": {
+        "title": "Digital Platforms",
+        "desc": "Designing clean and modern UI/UX interfaces."
+      },
+      "collaboration": {
+        "title": "Team Collaboration",
+        "desc": "Working with teams to turn ideas into reality."
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "desc": "Website maintenance and technical support."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Let's Connect",
+    "title": "Get In",
+    "titleHighlight": "Touch",
+    "description": "Ready to start your web development project? Let's discuss how I can help bring your digital vision to life.",
+    "info": {
+      "title": "Contact Information",
+      "location": "Our Location",
+      "locationValue": "Tehran, Iran",
+      "phone": "Phone Number",
+      "phoneValue": "0905 820 7731",
+      "email": "Email Address",
+      "whatsapp": "Chat on WhatsApp"
+    },
+    "form": {
+      "title": "Start Your Project",
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "Error sending message. Please try again."
+    }
+  },
+  "footer": {
+    "titleName": "Ghazal Hosseinni",
+    "description": "Professional Front-end Developer and Web Developer based in Tehran, Iran. Specializing in responsive web design and modern web technologies.",
+    "services": "Services",
+    "contactInfo": "Contact Info",
+    "phoneValue": "0905 820 7731",
+    "rights": "All Rights Reserved",
+    "tagline": "Professional Front-end Developer & Web Developer | Tehran, Iran",
+    "servicesList": {
+      "frontend": "Front-end Development",
+      "responsive": "Responsive Web Design",
+      "vue": "Vue.js & Nuxt.js Development",
+      "performance": "Performance Optimization",
+      "javascript": "JavaScript Development",
+      "tailwind": "Tailwind CSS Integration"
+    }
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "language": {
+    "fa": "فارسی",
+    "en": "English"
+  }
+}

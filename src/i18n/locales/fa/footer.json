@@ -1,0 +1,17 @@
+{
+  "titleName": "غزل حسینی",
+  "description": "توسعه‌دهنده Front-end و Web حرفه‌ای مستقر در تهران، ایران. متخصص در طراحی ریسپانسیو وب و تکنولوژی‌های مدرن وب.",
+  "services": "خدمات",
+  "contactInfo": "اطلاعات تماس",
+  "phoneValue": " 7731 820 0905",
+  "rights": "تمامی حقوق محفوظ است",
+  "tagline": "توسعه‌دهنده فرانت اند و وب حرفه‌ای | تهران، ایران",
+  "servicesList": {
+    "frontend": "توسعه Front-end",
+    "responsive": "طراحی ریسپانسیو وب",
+    "vue": "توسعه Vue.js و Nuxt.js",
+    "performance": "بهینه‌سازی عملکرد",
+    "javascript": "توسعه JavaScript",
+    "tailwind": "ادغام Tailwind CSS"
+  }
+}

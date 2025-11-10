@@ -1,0 +1,20 @@
+{
+  "greeting": "غزل حسینی",
+  "title": "توسعه‌دهنده Front-end",
+  "subtitle": "توسعه‌دهنده وب",
+  "roles": {
+    "developer": "توسعه‌دهنده وب",
+    "frontend": "توسعه‌دهنده Front-end",
+    "designer": "طراح UI",
+    "programmer": "برنامه‌نویس خلاق"
+  },
+  "description": "سلام! من غزل حسینی هستم، توسعه‌دهنده Front-end مستقر در تهران، عاشق خلق تجربه‌های دیجیتال هستم که هم زیبا باشند و هم کاربردی. هر خط کدی که می‌نویسم، تلاشم این است که وب‌سایت‌ها زنده و جذاب شوند. HTML ، CSS، JavaScript، Nuxt، Vue و Tailwind ابزارهای جادویی من هستند.",
+  "viewWork": "مشاهده نمونه کارها",
+  "getInTouch": "تماس با من",
+  "haveProject": "پروژه دارید؟",
+  "stats": {
+    "projects": "پروژه",
+    "experience": "سال تجربه",
+    "satisfaction": "رضایت"
+  }
+}

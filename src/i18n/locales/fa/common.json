@@ -1,0 +1,12 @@
+{
+  "theme": {
+    "dark": "تاریک",
+    "light": "روشن",
+    "title": "تم"
+  },
+  "language": {
+    "fa": "فارسی",
+    "en": "English",
+    "title": "زبان"
+  }
+}

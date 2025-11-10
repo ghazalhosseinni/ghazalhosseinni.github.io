@@ -1,0 +1,330 @@
+@import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme Variables */
+:root {
+  --light-bg: #f8fafc;
+  --light-text: #1e293b;
+  --light-text-secondary: #475569;
+  --light-border: #e2e8f0;
+}
+
+@layer base {
+  /* Custom Selection Color */
+  html.dark ::selection {
+    background-color: rgba(139, 92, 246, 0.3);
+    color: #ffffff;
+  }
+
+  html.dark ::-moz-selection {
+    background-color: rgba(139, 92, 246, 0.3);
+    color: #ffffff;
+  }
+
+  html.light ::selection {
+    background-color: rgba(100, 116, 139, 0.3);
+    color: #0f172a;
+  }
+
+  html.light ::-moz-selection {
+    background-color: rgba(100, 116, 139, 0.3);
+    color: #0f172a;
+  }
+
+  /* Dark theme (default) */
+  html.dark body {
+    @apply bg-slate-950 text-slate-100 antialiased;
+    font-family: "Vazir", sans-serif;
+  }
+
+  /* RTL (Farsi) - Better line height and typography for Persian text */
+  html[dir="rtl"] * {
+    font-family: "Vazir", sans-serif;
+    direction: rtl;
+    text-align: right;
+  }
+
+  html[dir="rtl"] body {
+    line-height: 2;
+  }
+
+  html[dir="rtl"] p {
+    line-height: 2;
+  }
+
+  html[dir="rtl"] h1,
+  html[dir="rtl"] h2,
+  html[dir="rtl"] h3,
+  html[dir="rtl"] h4,
+  html[dir="rtl"] h5,
+  html[dir="rtl"] h6 {
+    line-height: 1.8;
+  }
+
+  html[dir="rtl"] span {
+    line-height: 1.8;
+  }
+
+  /* Override text-center for RTL */
+  html[dir="rtl"] .text-center {
+    text-align: center !important;
+  }
+
+  /* Keep left alignment for specific elements */
+  html[dir="rtl"] .lg\:text-left {
+    text-align: right !important;
+  }
+
+  /* Light theme */
+  html.light {
+    @apply bg-white text-slate-900;
+  }
+
+  html.light body {
+    color: #0f172a;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%);
+  }
+
+  html.light h1,
+  html.light h2,
+  html.light h3,
+  html.light h4 {
+    color: #020617 !important;
+  }
+
+  html.light p {
+    color: #1e293b !important;
+  }
+
+  html.light span {
+    color: #334155;
+  }
+
+  html.light .text-slate-400 {
+    color: #475569 !important;
+  }
+
+  html.light .text-slate-300 {
+    color: #334155 !important;
+  }
+
+  html.light .glass-effect {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(148, 163, 184, 0.3);
+    box-shadow: 0 8px 32px rgba(100, 116, 139, 0.1);
+  }
+
+  html.light a {
+    color: #0f172a;
+  }
+
+  html.light .text-gradient {
+    color: #475569;
+  }
+
+  html.dark .text-gradient {
+    color: #cbd5e1;
+  }
+
+  /* Gradient only on hover */
+  .group:hover .text-gradient,
+  .text-gradient:hover {
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Icon colors based on theme */
+  html.dark .theme-icon {
+    @apply text-white;
+  }
+
+  html.light .theme-icon {
+    @apply text-slate-800;
+  }
+
+  /* Light theme improvements */
+  html.light .bg-slate-900 {
+    background-color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(100, 116, 139, 0.08);
+  }
+
+  html.light .bg-slate-950 {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%) !important;
+  }
+
+  html.light .border-slate-800 {
+    border-color: #e2e8f0 !important;
+  }
+
+  html.light .border-slate-700 {
+    border-color: #cbd5e1 !important;
+  }
+
+  html.light .shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(100, 116, 139, 0.15) !important;
+  }
+
+  html.light .hover\:bg-white\/10:hover {
+    background-color: rgba(203, 213, 225, 0.3) !important;
+  }
+
+  html.light .hover\:bg-white\/5:hover {
+    background-color: rgba(203, 213, 225, 0.2) !important;
+  }
+
+  /* Monochrome theme - grayscale backgrounds, colored only on hover */
+  .bg-gradient-to-r,
+  .bg-gradient-to-br,
+  .bg-gradient-to-l {
+    background: linear-gradient(to right, #475569, #64748b) !important;
+  }
+
+  html.light .bg-gradient-to-r,
+  html.light .bg-gradient-to-br,
+  html.light .bg-gradient-to-l {
+    background: linear-gradient(to right, #64748b, #475569) !important;
+  }
+
+  /* Colored gradients only on hover */
+  .hover\:bg-gradient-to-br:hover,
+  .group:hover .bg-gradient-to-br,
+  button:hover .bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #3b82f6, #8b5cf6) !important;
+  }
+
+  .hover\:from-primary-600:hover,
+  .group:hover .from-primary-600 {
+    background: linear-gradient(to right, #3b82f6, #8b5cf6) !important;
+  }
+
+  html.light {
+    --bg-primary: #f8fafc;
+    --bg-secondary: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+  }
+
+  html.dark {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@keyframes progressAnimation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: var(--progress-width);
+  }
+}
+
+.progress-bar-hover {
+  width: 0%;
+  animation: progressAnimation 1.5s ease-out forwards;
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-400 via-purple-400 to-pink-400;
+  }
+
+  html.dark .glass-effect {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10;
+  }
+
+  html.light .glass-effect {
+    @apply bg-slate-200/50 backdrop-blur-lg border border-slate-300/50;
+  }
+
+  .hover-lift {
+    @apply transition-all duration-500 hover:-translate-y-3 hover:shadow-2xl hover:shadow-primary-500/30;
+  }
+
+  /* Enhanced Animations */
+  @keyframes float-slow {
+    0%,
+    100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(2deg);
+    }
+  }
+
+  @keyframes glow-pulse {
+    0%,
+    100% {
+      box-shadow: 0 0 20px rgba(14, 165, 233, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 40px rgba(14, 165, 233, 0.8),
+        0 0 60px rgba(14, 165, 233, 0.4);
+    }
+  }
+
+  .animate-float-slow {
+    animation: float-slow 6s ease-in-out infinite;
+  }
+
+  .animate-glow-pulse {
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+
+  html.light * {
+    @apply text-slate-900;
+  }
+
+  html.light .text-slate-300,
+  html.light .text-slate-400,
+  html.light .text-slate-100,
+  html.light .text-slate-200 {
+    @apply text-slate-700;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary-500;
+}
+
+/* Background animation */
+@keyframes moveBackground {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-50px, -50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.animate-move-bg {
+  animation: moveBackground 20s ease-in-out infinite;
+}
