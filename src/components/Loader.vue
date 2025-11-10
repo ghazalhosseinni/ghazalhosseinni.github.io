@@ -73,8 +73,6 @@ onMounted(() => {
           isHiding.value = true
           setTimeout(() => {
             isLoading.value = false
-            // Emit event to initialize AOS after loader finishes
-            window.dispatchEvent(new Event('loader-finished'))
           }, 1000)
         }, 800)
       }, 300)

@@ -2,7 +2,7 @@
   <section id="about" class="py-10 px-4 bg-slate-900/50 mb-[100px]">
     <div class="container mx-auto">
       <!-- Section Title -->
-      <div class="text-center mb-12 sm:mb-16 space-y-3 sm:space-y-4 px-4" data-aos="fade-up">
+      <div class="text-center mb-12 sm:mb-16 space-y-3 sm:space-y-4 px-4">
         <span
           class="inline-block px-12 py-3 bg-primary-500/20 text-primary-400 rounded-full text-base font-semibold mb-10"
         >
@@ -15,7 +15,7 @@
       </div>
 
       <!-- Content -->
-      <div class="max-w-4xl mx-auto space-y-10 sm:space-y-12 px-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="max-w-4xl mx-auto space-y-10 sm:space-y-12 px-4">
         <!-- Personal Info -->
         <div class="space-y-4 text-slate-300 leading-relaxed">
           <p>{{ $t("about.description1") }}</p>
@@ -25,7 +25,7 @@
         </div>
 
         <!-- Stats -->
-        <div class="grid grid-cols-3 gap-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="grid grid-cols-3 gap-4">
           <div
             v-for="(stat, index) in stats"
             :key="stat.label"

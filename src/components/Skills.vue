@@ -2,7 +2,7 @@
   <section id="skills" class="py-10 px-4 bg-slate-900/50 mb-[100px]">
     <div class="container mx-auto">
       <!-- Section Title -->
-      <div class="text-center mb-12 sm:mb-16 space-y-3 sm:space-y-4 px-4" data-aos="fade-up">
+      <div class="text-center mb-12 sm:mb-16 space-y-3 sm:space-y-4 px-4">
         <span
           class="inline-block px-12 py-3 bg-primary-500/20 text-primary-400 rounded-full text-base font-semibold mb-10"
           >{{ $t("skills.badge") }}</span
@@ -19,7 +19,7 @@
       </div>
 
       <!-- Skills Grid -->
-      <div class="max-w-4xl mx-auto space-y-6 sm:space-y-8 px-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="max-w-4xl mx-auto space-y-6 sm:space-y-8 px-4">
         <div
           v-for="(skill, index) in skills"
           :key="skill.name"

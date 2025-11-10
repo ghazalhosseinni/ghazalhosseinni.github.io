@@ -49,7 +49,6 @@
 <script setup>
 import { onMounted } from "vue";
 import { useI18n } from "vue-i18n";
-import AOS from "aos";
 import Loader from "./components/Loader.vue";
 import Sidebar from "./components/Sidebar.vue";
 import ThemeLanguageControls from "./components/MobileMenu.vue";
@@ -73,15 +72,5 @@ onMounted(() => {
     savedLocale === "fa" ? "rtl" : "ltr"
   );
   document.documentElement.setAttribute("lang", savedLocale);
-
-  // Initialize AOS after loader finishes
-  window.addEventListener('loader-finished', () => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-      offset: 100,
-      easing: 'ease-in-out',
-    });
-  });
 });
 </script>
